@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.parent * {
+    padding: 11px 8px;
+}
+
+.description div {
+    padding: 16px 42px;
+}
+
+.logo img {
+    width: 45%;
+}
+
+.back-decor img {
+    width: 100%;
+}
+
+.back-decor {
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 430px;
+}
+
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+h1,
+p {
+    font-family: 'Poppins';
+    color: #fff;
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+button {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    padding: 12px 20px !important;
+    border-radius: 100px;
+    color: hsl(257, 40%, 49%);
+    border: none;
+}
+
+.social-icon img {
+    display: inline-block;
+    text-align: center;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin: 20px; */
+
+}
+
+button:hover,
+.social-icon img:hover {
+    background-color: #e882e8;
+    color: #fff;
+    font-weight: bold;
+    border-color: #e882e8;
+}
+
+.attribution {
+    padding: 20px 0;
+    font-size: 11px;
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+
+    body {
+        background: url("images/bg-desktop.svg") no-repeat;
+        background-size: contain;
+        /* background-size: cover; */
+    }
+
+    main {
+        padding-left: 50px;
+    }
+
+    .logo img {
+        width: 15%;
+    }
+
+    .description {
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 500px;
+    }
+
+    .description div {
+        padding: 6px;
+    }
+
+    h1,
+    p {
+        text-align: left;
+    }
+
+    .desk {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: bolder;
+    }
+
+    .social-icon {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+
+    }
+
+}
+
+.attribution a {
+    color: hsl(57, 100%, 50%);
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+
+}
